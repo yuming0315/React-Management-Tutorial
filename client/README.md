@@ -1,3 +1,7 @@
+## Management System
+나동빈 React Node.js 활용해서 고객관리 시스템 개발
+클레스형 컴포넌트=>함수형 변환하면서 공부
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

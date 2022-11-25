@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#paper {
+  width: "100%";
+  margin-top: 10px;
+  overflow-x: "auto";
+}
+
+table{
+  min-width: 1080;
+}
