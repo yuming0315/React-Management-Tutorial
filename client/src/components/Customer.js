@@ -7,14 +7,14 @@ function Customer(props) {
   return (
     <TableBody>
       <TableRow>
-        <TableCell>{props.id}</TableCell>
+        <TableCell>{props.customer.id}</TableCell>
         <TableCell>
-          <img src={props.image} alt="profile" />
+          <img src={props.customer.image} alt="profile" />
         </TableCell>
-        <TableCell>{props.name}</TableCell>
-        <TableCell>{props.birthday}</TableCell>
-        <TableCell>{props.gender}</TableCell>
-        <TableCell>{props.job}</TableCell>
+        <TableCell>{props.customer.name}</TableCell>
+        <TableCell>{props.customer.birthday}</TableCell>
+        <TableCell>{props.customer.gender}</TableCell>
+        <TableCell>{props.customer.job}</TableCell>
       </TableRow>
     </TableBody>
   );
